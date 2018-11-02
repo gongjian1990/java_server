@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +23,7 @@ import com.changyu.foryou.tools.JpushInterface;
 @Controller
 @RequestMapping("/push")
 public class PushController {
-	protected static final Logger log = LoggerFactory.getLogger(PushController.class);
+	protected static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PushController.class);
 	private static final String appKey = "6b618bf4a73419c8e351240e";
 	private static final String masterSecret = "a80ba2c3934895be10ae9a75";
     private UserService userService;

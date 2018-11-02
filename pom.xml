@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.changyu</groupId>
 	<artifactId>foryou</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>1.0.1</version>
 	<name>foryou</name>
 	<url>http://maven.apache.org</url>
